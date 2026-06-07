@@ -1,7 +1,10 @@
-On branch main
-Your branch is up to date with 'origin/main'.
+/// <reference types="vite/client" />
 
-Untracked files:
-	src/vite-env.d.ts
+interface ImportMetaEnv {
+  readonly VITE_SUPABASE_URL: string
+  readonly VITE_SUPABASE_ANON_KEY: string
+}
 
-nothing added to commit but untracked files present
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}
