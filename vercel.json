@@ -2,7 +2,7 @@
   "build": {
     "env": {
       "VITE_SUPABASE_URL": "https://clqhdiofrmexmnuuoldz.supabase.co",
-      "VITE_SUPABASE_ANON_KEY": "sb_publishable_T-cP6yGo5lo6bDz8Xu6Xnw_LFWCTWud"
+      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNscWhkaW9mcmV4bW51dW9sZHoiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTcxNzg4MzkzOCwiZXhwIjoyMDMzNDU5OTM4fQ._S3d-lK8tWOnjM-m9wW_gN04L9h7zR68bJqVb5y5D0I"
     }
   },
   "routes": [
