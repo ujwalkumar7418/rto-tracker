@@ -1,1 +1,12 @@
-{"version": 2, "routes": [{"src": "/[^.]*", "dest": "/", "status": 200}]}
+{
+  "build": {
+    "env": {
+      "VITE_SUPABASE_URL": "https://clqhdiofrmexmnuuoldz.supabase.co",
+      "VITE_SUPABASE_ANON_KEY": "sb_publishable_T-cP6yGo5lo6bDz8Xu6Xnw_LFWCTWud"
+    }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/[^.]*", "dest": "/" }
+  ]
+}
